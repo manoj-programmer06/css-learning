@@ -18,8 +18,3 @@ Welcome to my CSS Learning Repository.
 - Animation
 - Responsive Design
 
-## Projects
-
-- Login Page
-- GitHub Landing Page Clone
-- Portfolio Website
