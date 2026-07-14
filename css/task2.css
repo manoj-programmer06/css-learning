@@ -1,0 +1,48 @@
+.image1{
+    display: flex;
+       
+    width: 100%;
+    margin: 100px 0 0 100px ;
+}
+.image1 img{
+    width:350px;
+    height:450px;
+    border-radius: 15px;
+}
+
+.v1{
+    position:relative;
+    left:0px;
+
+}
+
+.v2{
+      position: relative;
+    left: -90px;
+    top: 150px; 
+   
+}
+
+.v3{
+      position:relative;    
+      left: -180px;
+    top: 250px; 
+}
+
+.v4{
+      position:relative;
+    left: -270px;
+    top: 350px; 
+}
+
+.v5{
+      position:relative;
+    left: -360px;
+    top: 450px; 
+}
+
+.v6{
+     position:relative;
+    left: -450px;
+    top: 600px; 
+}
