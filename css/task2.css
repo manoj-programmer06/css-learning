@@ -1,5 +1,5 @@
 body{
-    background-color: chartreuse;
+    background-color: rgb(116, 109, 18);
 }
 .image1{
     display: flex;
@@ -14,19 +14,13 @@ body{
     border-radius: 15px;
     position: absolute;
 }
-
 .v1{
-   
     left:0px;
-
 }
-
 .v2{
     left: 260px;
-    top: 400px; 
-   
+    top: 400px;   
 }
-
 .v3{
       left: 450px;
     top: 650px; 
