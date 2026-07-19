@@ -1,0 +1,19 @@
+.parent-container{
+    
+    background-color: aqua;
+    color: brown;
+    position: relative;
+    left: 120px;
+    height: 100px;
+    width: 150px;
+    
+}
+.child-container {
+
+    background-color: aquamarine;
+    color: beige;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}

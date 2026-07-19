@@ -1,0 +1,35 @@
+ .container1 {
+    background-color: rgb(105, 71, 255);
+    color:rgb(139, 238, 25);
+    padding: 25px;
+    margin-bottom: 50px;
+    width: 600px;
+
+    position: relative;
+    top:150px;
+    left:100px;
+
+} 
+ .container2 {
+    background-color: rgb(77, 255, 71);
+    color:rgb(134, 10, 134);
+    padding: 25px;
+    margin-bottom: 30px;
+    width: 600px;
+
+    position: relative;
+    top:150px;
+    left:300px;
+
+} 
+ .container3 {
+    background-color: tomato;
+    color:white;
+    padding: 25px;
+    width: 600px;
+
+    position: relative;
+    top:150px;
+    left:800px;
+
+} 
