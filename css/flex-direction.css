@@ -1,0 +1,16 @@
+.title > h3{
+    text-align: center;
+}
+.flex-item{
+    background-color: aqua;
+    margin: 15px;
+    padding: 10px;
+    height: 100px;
+    width: 50px;
+    box-shadow: 10px 15px 12px aqua;
+    
+}
+.flex-container{
+    display: flex;
+    direction: row;
+}
