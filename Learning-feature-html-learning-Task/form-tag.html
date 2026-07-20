@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Tag</title>
+    </head>
+    <body>
+        <h1><span style="color: rgb(255, 208, 0);">Form Tag</span></h1>
+        <form method="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div><br/>
+            <div>
+                <label for="number">Number:</label>
+                <input type="number" id="number" name="number" required>
+            </div><br/>
+            <div>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div><br/>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male  ">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+            </div><br/>
+            <div>
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select a country</option>
+                    <option value="tamil nadu">Tamil nadu</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">UK</option>
+                </select>
+            </div><br/>
+            <div>
+                <label for="address">Address:</label><br>
+                <textarea id="address"
+              name="address"
+              rows="5"
+              cols="30"
+              placeholder="Enter your address"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html> 

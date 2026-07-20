@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Tag Task</title>
+</head>
+
+<body style="background-color:#f4f6f9;">
+    <h1 align="center">
+        <span style="color:#0d6efd;">Product Form</span>
+    </h1>
+
+    <form method="post">
+
+        <table border="2" align="center" cellpadding="25"
+            style="background-color:white; border-color:rgb(20, 63, 143);">
+
+            <tr>
+                <td style="background-color:#0d6efd; color:white;">
+                    <label for="Product name">
+                        Product Name <span style="color:#ffd700;">*</span>
+                    </label>
+                </td>
+
+                <td style="background-color:#f8f9fa;">
+                    <input type="text" id="Product name" name="Product name" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="background-color:#0d6efd; color:white;">
+                    <label for="Product price">
+                        Product Price <span style="color:#ffd700;">*</span>
+                    </label>
+                </td>
+
+                <td style="background-color:#f8f9fa;">
+                    <input type="number" id="Product price" name="Product price" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="background-color:#0d6efd; color:white;">
+                    <label for="support mail">
+                        Support Mail <span style="color:#ffd700;">*</span>
+                    </label>
+                </td>
+
+                <td style="background-color:#f8f9fa;">
+                    <input type="email" id="support mail" name="support mail" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="background-color:#0d6efd; color:white;">
+                    <label for="manufacture date">
+                        Manufacture Date <span style="color:#ffd700;">*</span>
+                    </label>
+                </td>
+
+                <td style="background-color:#f8f9fa;">
+                    <input type="date" id="manufacture date" name="manufacture date" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="background-color:#0d6efd; color:white;">
+                    <label for="expiry date">
+                        Expiry Date <span style="color:#ffd700;">*</span>
+                    </label>
+                </td>
+
+                <td style="background-color:#f8f9fa;">
+                    <input type="date" id="expiry date" name="expiry date" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="background-color:#0d6efd; color:white;">
+                    <label for="Product image">
+                        Product Image <span style="color:#ffd700;">*</span>
+                    </label>
+                </td>
+
+                <td style="background-color:#f8f9fa;">
+                    <input type="file" id="Product image" name="Product image" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="background-color:#0d6efd; color:white;">
+                    <label for="Quality">
+                        Quality <span style="color:#ffd700;">*</span>
+                    </label>
+                </td>
+
+                <td style="background-color:#f8f9fa;">
+                    <select id="Quality" name="Quality" required>
+                        <option value="">Select Quality</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center" style="background-color:white;">
+                    <button type="submit"
+                        style="background-color:#198754; color:white; padding:10px 25px; border:none;">
+                        Submit
+                    </button>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>
